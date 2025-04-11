@@ -175,14 +175,15 @@
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
     import { getFirestore, collection, getDocs, query, orderBy, doc, updateDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-firestore.js";
 
-    const firebaseConfig = {
-      apiKey: "AIzaSyCdyMFDsMzkprimG3YKiS3Ipbq17rtASKI",
-      authDomain: "game-wev.firebaseapp.com",
-      projectId: "game-wev",
-      storageBucket: "game-wev.appspot.com",
-      messagingSenderId: "191658439875",
-      appId: "1:191658439875:web:084d88f50f4dd6a6ee9e76"
-    };
+    // Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAonc-hS1V2MzSSeIWdRKT0gwJi_G58Znc",
+  authDomain: "fir-dashboard-e53de.firebaseapp.com",
+  projectId: "fir-dashboard-e53de",
+  storageBucket: "fir-dashboard-e53de.firebasestorage.app",
+  messagingSenderId: "716659883720",
+  appId: "1:716659883720:web:9ceaf854066becfcadaffd"
+};
 
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
